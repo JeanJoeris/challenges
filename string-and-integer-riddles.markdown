@@ -56,6 +56,10 @@ the desired length?
     * extra_length = length - word_to_pad.length
     * word_to_pad.prepend(padding_chaacterr*extra_length/2)
     * word_to_pad << padding_character*extra_length/2
+    * 
+    * center
+    * ljust
+    * rjust
 
 * What if I wanted to replace the padding character with spaces? And a variable
 total length?
