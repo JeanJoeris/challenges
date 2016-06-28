@@ -42,8 +42,8 @@ another character?
 
 * How do I insert 5 asterisks at the start of a string? What about at the end of
 a string? What about x asterisks?
-    * string.prepend("*"*5)
-    * string << "*"*5
+    * string.prepend(" * "*5)
+    * string << " * "*5
     * replace 5 w/ x
 
 * What if I wanted to have a string that's four characters long, but I want to
