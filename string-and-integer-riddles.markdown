@@ -31,6 +31,7 @@ happens if it is a number?
     * or more sanely - de-spaced_string = string.delete(" ")
     * ending_punctuation_removed_string = string.chop
     * ending_punctuation_removed_string.reverse === string
+    * better alternative to chop and delete space - string.delete(" ,.!?'-")
 
 * How can I replace an occurrence of a single character in a string with another
 character?
